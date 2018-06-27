@@ -1,0 +1,19 @@
+{
+	"name": "Automatic Retry",
+
+	"namespace": "Vanderbilt\\AutomaticRetryExternalModule",
+
+	"authors": [
+		{
+			"name": "Mark McEver",
+			"email": "datacore@vanderbilt.edu",
+			"institution": "Vanderbilt University Medical Center"
+		}
+	],
+
+	"permissions": [
+		"redcap_survey_page"
+	],
+
+	"description": "Automatically retries requests that fail due to network connection or server issues.  This module currently only affects survey submissions, but could be expanded to apply to other pages."
+}
